@@ -12,6 +12,7 @@ void setup()
 {
    size(800,600); 
    loadData();
+   printProducts();
 
 }
 void loadData()
@@ -24,6 +25,17 @@ void loadData()
     
     
   }
+}
+
+void printProducts()
+{
+  
+   for(Product products:product)
+  {
+    println(products);
+  }
+  
+  
 }
 
 void draw()
