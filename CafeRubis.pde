@@ -53,15 +53,27 @@ void displayProducts()
   stroke(0); 
   text("Cafe Rubis Till System" , width/2 , 50); 
   
+  float x = 0;
+  float y = 100;
 
   for(Product products:product)
   {
-    float x = 50;
-    float y = 50;
+   
+     x = 100;
+    y += 65;
+      fill(255);
+    rect(x-100,y-25, 250,50);  
     
     stroke(0);
-    fill(255);
-    rect(x, products.rectY , 100, 50); 
+    fill(0);
+    text(products.name, x, y);
+  
+    
+    
+
+    
+    
+    
   
   }
     
