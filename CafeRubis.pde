@@ -62,19 +62,19 @@ void displayProducts()
      x = 100;
     y += 65;
       fill(255);
-    rect(x-100,y-25, 250,50);  
+    rect(x-100,y-25, 300,50);  
     
     stroke(0);
     fill(0);
-    text(products.name, x, y);
-  
-    
-    
+    textSize(16);
+    text("      " + products.name + "     €" + products.price + "0", x, y);
 
-    
-    
-    
-  
   }
     
+}
+
+void mousePressed()
+{
+  
+  
 }
