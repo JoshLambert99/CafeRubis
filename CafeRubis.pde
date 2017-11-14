@@ -75,6 +75,12 @@ void displayProducts()
 
 void mousePressed()
 {
+  fill(255);
+  stroke(255);
+  rect(450, 100, 300, 500); 
+
   
+  
+    
   
 }
