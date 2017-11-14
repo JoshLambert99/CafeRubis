@@ -1,6 +1,11 @@
 class Product {
    String name;
    float price;
+   
+   float rectX = 0;
+   float rectY = 0;
+   
+   
   
   Product (TableRow row)
   {

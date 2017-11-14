@@ -40,5 +40,29 @@ void printProducts()
 
 void draw()
 {
+  displayProducts();
   
+}
+
+void displayProducts()
+{
+  
+  textAlign(CENTER,CENTER);
+  textSize(20);
+  fill(0);
+  stroke(0); 
+  text("Cafe Rubis Till System" , width/2 , 50); 
+  
+
+  for(Product products:product)
+  {
+    float x = 50;
+    float y = 50;
+    
+    stroke(0);
+    fill(255);
+    rect(x, products.rectY , 100, 50); 
+  
+  }
+    
 }
